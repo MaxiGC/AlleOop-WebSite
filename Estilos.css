@@ -1,0 +1,1217 @@
+/*Celulares 312px ...Samsung...*/
+@media(min-width: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+
+    .SectionHeader {
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(./texture.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        height: 8rem;
+    }
+
+    .TituloTienda {
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 4rem;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 0.5rem;
+        text-shadow: black 6px 8px 9px;
+        ;
+    }
+
+    .CajaMenu {
+        background-color: orange;
+        text-align: center;
+        font-family: fantasy;
+    }
+
+    #Menu li {
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    #Menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+    }
+
+    .Banner {
+        margin-top: 0.5rem;
+        width: 100%;
+        box-shadow: rgb(132, 130, 130) 8px 10px 13px;
+    }
+
+
+   /*....Icono de contacto...*/
+   .IconoContacto {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    display: flex;
+
+}
+
+/* .... imagenes inicio... */
+
+    .contendorMainIncio{
+        width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contenedorInicio {
+    margin-top: 1rem;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+
+}
+
+.contenedorIncio figure {
+    margin-top: 2rem;
+    position: relative;
+    height: 15rem;
+    width: 100%;
+
+    overflow: hidden;
+    /*ocultar objetos fuera del contenedor*/
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    cursor: pointer;
+}
+
+.contenedorIncio figure Img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedorIncio figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(215, 23, 253, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 1;
+    visibility: hidden;
+    text-align: center;
+ 
+}
+.contenedorIncio figure .capa h3{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 5.5rem;
+    font-family: fantasy;
+    font-weight: 100;
+    color: white;
+    font-size: 3rem;
+    text-shadow: black 4px 8px 6px;
+}
+.contenedorIncio figure .capa p{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.contenedorIncio figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.contenedorIncio figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedorIncio figure:hover .capa h3 {
+    color: white;
+    font-size: 7rem;
+    font-family: fantasy;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    transition: all 500ms ease-out;
+    margin-top: 4rem;
+}
+
+.contenedorIncio figure .capa p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.contenedorIncio figure:hover img {
+    transform: scale(1.3);
+}
+
+
+/* ....Contacto.....*/
+.IconoContacto img {
+    width: 7rem;
+    height: 7rem;
+    filter: drop-shadow(10px 7px 5px black);
+
+}
+
+.label{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.clientes_contenido {
+    width: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: large;
+    padding: 2rem;
+    text-align: center;
+}
+
+.clientes_input {
+    width: 100%;
+    display: block;
+    margin: 0.5 rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.clientes_btn {
+    font-size: 1.4rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 20px;
+}
+.clientes_btn:hover {
+    background-color: rgb(193, 4, 222);
+    color: white;
+    font-weight: 600;
+}
+
+.registroTxt {
+    padding: 1rem;
+    font-size: 7rem;
+    font-family: fantasy;
+    font-style: italic;
+    color: orange;
+    text-shadow: black 4px 8px 6px;
+}
+
+
+
+
+
+/*...logos zapatillas camisetas y shorts...*/
+
+.logos {
+    height: auto;
+    width: 5rem;
+    margin: 0.5rem;
+
+}
+
+.logos:hover {
+    margin: auto;
+    height: auto;
+    width: 7rem;
+    filter: drop-shadow(10px 7px 5px black);
+}
+
+.contenedor img {
+    width: 50rem;
+    height: 50rem;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10%;
+    /*box-shadow: black 15px 12px 25px;*/
+
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.Marca {
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 3rem;
+    color: orange;
+    text-shadow: black 4px 8px 6px;
+
+}
+
+.detalle {
+    padding: 2REM;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/*.... accesorios ...*/
+.contenedormain_acce {
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contenedormain_acce a {
+    text-decoration: none;
+}
+
+.Img_chica {
+    margin: 1.5rem;
+    width: 25rem;
+    height: 25rem;
+    padding: 1rem;
+    border-radius: 15px;
+
+
+}
+
+.cont_img {
+    margin: 1rem;
+    width: 35rem;
+    height: 35rem;
+    border-width: 3px;
+    border-color: orange;
+}
+
+.nom_acc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+
+}
+
+
+/* carrusel swiper*/
+.swiper {
+    width: 100%;
+
+}
+
+.swiper img {
+    width: 100%;
+    height: 5%;
+    object-fit: cover;
+
+}
+
+/*...zapatillas...*/
+
+.zapa_jordan20 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.zapa_stayloyal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo_prod {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: fantasy;
+    color: orange;
+    font-size: 3rem;
+    text-align: center;
+
+
+}
+
+.precio_prod {
+    margin-bottom: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btncomprar{
+    margin: 3rem;
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.btncomprar:hover{
+    background-color: blueviolet;
+    color: white;
+}
+    #Footer {
+        margin-top: 2rem;
+        height: 3rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 0.5rem;
+    }
+
+
+.contenedorLogos {
+    padding: 3rem;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor img {
+    width: 40rem;
+    height: auto;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+}
+
+/*....tablets....*/
+@media(min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        width: 100%;
+        background-color: rgb(158, 158, 158);
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 1) 50%);
+
+    }
+
+    .Contenidos {
+        display: block
+    }
+
+    .SectionHeader {
+        background-image: url(./texture.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        height: 12rem;
+    }
+
+    .TituloTienda {
+        color: white;
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 8rem;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 0.5rem;
+
+    }
+
+    .CajaMenu {
+        background-color: orange;
+        text-align: center;
+        font-family: fantasy;
+    }
+
+    #Menu li {
+        font-size: 2rem;
+        display: inline-block;
+        padding: 2rem;
+    }
+
+    #Menu a {
+        text-decoration: none;
+        color: white;
+        font-weight:normal;
+    }
+
+    #Menu a:hover{
+        text-shadow: black 2px 2px 4px;
+    }
+
+    .Banner {
+        width: 100%;
+    }
+
+    #Footer {
+        width: 100%;
+        margin-top: 2rem;
+        height: 3rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 0.5rem;
+        
+    }
+
+
+    /*....Icono de contacto...*/
+    .IconoContacto {
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        display: flex;
+
+    }
+/* .... imagenes inicio... */
+
+.contendorMainIncio{
+    width: auto;
+margin-left: auto;
+margin-right: auto;
+
+}
+.contenedorInicio {
+margin-top: 1rem;
+padding: 0;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+height: auto;
+
+}
+
+.contenedorIncio figure {
+margin-top: 2rem;
+position: relative;
+height: 25rem;
+width: 100%;
+
+overflow: hidden;
+/*ocultar objetos fuera del contenedor*/
+border-radius: 10px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+cursor: pointer;
+}
+
+.contenedorIncio figure Img {
+width: 100%;
+height: 100%;
+transition: all 500ms ease-out;
+}
+
+.contenedorIncio figure .capa{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(215, 23, 253, 0.6);
+transition: all 500ms ease-out;
+opacity: 1;
+visibility: hidden;
+text-align: center;
+
+}
+.contenedorIncio figure .capa h3{
+visibility: visible;
+opacity: 1;
+margin-top: 11rem;
+font-family: fantasy;
+font-weight: 100;
+color: white;
+font-size: 3rem;
+text-shadow: black 4px 8px 6px;
+}
+.contenedorIncio figure .capa p{
+opacity: 0;
+visibility: hidden;
+}
+
+.contenedorIncio figure:hover>.capa {
+opacity: 1;
+visibility: visible;
+
+}
+
+.contenedorIncio figure:hover>.capa h3 {
+margin-top: 70px;
+margin-bottom: 15px;
+}
+
+.contenedorIncio figure:hover .capa h3 {
+color: white;
+font-size: 7rem;
+font-family: fantasy;
+font-weight: 200;
+margin-bottom: 2rem;
+transition: all 500ms ease-out;
+margin-top: 4rem;
+}
+
+.contenedorIncio figure .capa p {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+width: 100%;
+max-width: 80%;
+margin: auto;
+
+}
+
+.contenedorIncio figure:hover img {
+transform: scale(1.3);
+}
+
+    /* ....Contacto.....*/
+    .IconoContacto img {
+        width: 7rem;
+        height: 7rem;
+        filter: drop-shadow(10px 7px 5px black);
+
+    }
+
+    .label{
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .clientes_contenido {
+        width: auto;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: large;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .clientes_input {
+        width: 100%;
+        display: block;
+        margin: 0.5 rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .clientes_btn {
+        font-size: 1.4rem;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 20px;
+    }
+    .clientes_btn:hover {
+        background-color: rgb(193, 4, 222);
+        color: white;
+        font-weight: 600;
+    }
+
+    .registroTxt {
+        padding: 1rem;
+        font-size: 7rem;
+        font-family: fantasy;
+        font-style: italic;
+        color: orange;
+        text-shadow: black 4px 8px 6px;
+    }
+
+
+
+    
+
+    /*...logos zapatillas camisetas y shorts...*/
+    .logos {
+        height: auto;
+        width: 12rem;
+
+    }
+
+    .logos:hover {
+        margin: auto;
+        height: auto;
+        width: 16rem;
+        filter: drop-shadow(10px 7px 5px black);
+    }
+
+    .contenedor img {
+        width: 50rem;
+        height: 50rem;
+        margin: 3rem;
+        padding: 2rem;
+        border-radius: 10%;
+        /*box-shadow: black 15px 12px 25px;*/
+
+    }
+
+    .contenedor {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .Marca {
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 5rem;
+        color: orange;
+        text-shadow: black 4px 8px 6px;
+
+    }
+
+    .detalle {
+        padding: 2REM;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    /*.... accesorios ...*/
+    .contenedormain_acce {
+        padding: 1rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+
+    }
+
+    .contenedormain_acce a {
+        text-decoration: none;
+    }
+
+    .Img_chica {
+        margin: 1.5rem;
+        width: 45rem;
+        height: 45rem;
+        padding: 1rem;
+        border-radius: 15px;
+
+
+    }
+
+    .cont_img {
+        margin: 1rem;
+        width: 35rem;
+        height: 35rem;
+        border-width: 3px;
+        border-color: orange;
+    }
+
+    .nom_acc {
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+
+    }
+
+
+    /* carrusel swiper*/
+    .swiper {
+        width: 100%;
+
+    }
+
+    .swiper img {
+        width: 100%;
+        height: 5%;
+        object-fit: cover;
+
+    }
+
+    /*...zapatillas...*/
+
+    .zapa_jordan20 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .zapa_stayloyal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo_prod {
+        padding: 1rem;
+        margin-top: 1rem;
+        font-family: fantasy;
+        color: orange;
+        font-size: 3rem;
+        text-align: center;
+
+
+    }
+
+    .precio_prod {
+        margin-bottom: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .btncomprar{
+        margin: 3rem;
+        background-color: orange;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 20px;
+        text-decoration: none;
+
+    }
+
+    .btncomprar:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+
+
+}
+
+
+
+
+/*...Escritorio...*/
+@media(min-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        width: 100%;
+        background-color: rgb(158, 158, 158);
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 1) 50%);
+
+    }
+
+    .Contenidos {
+        display: block
+    }
+
+    .SectionHeader {
+        background-image: url(./texture.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+        height: 12rem;
+    }
+
+    .TituloTienda {
+        color: white;
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 8rem;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 0.5rem;
+
+    }
+
+    .CajaMenu {
+        background-color: orange;
+        text-align: center;
+        font-family: fantasy;
+    }
+
+    #Menu li {
+        font-size: 2rem;
+        display: inline-block;
+        padding: 2rem;
+    }
+
+    #Menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+    }
+
+    .Banner {
+        width: 100%;
+    }
+
+    #Footer {
+        width: 100%;
+        margin-top: 2rem;
+        height: 3rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 0.5rem;
+        
+    }
+
+
+    /*....Icono de contacto...*/
+    .IconoContacto {
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        display: flex;
+
+    }
+
+    /* .... imagenes inicio... */
+    .contenedorIncio {
+        margin: auto;
+        padding: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+
+    }
+
+
+    .contenedorIncio figure {
+        margin-top: 2rem;
+        position: relative;
+        height: 45rem;
+        width: 100%;
+
+        overflow: hidden;
+        /*ocultar objetos fuera del contenedor*/
+        border-radius: 10px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+        cursor: pointer;
+    }
+
+    .contenedorIncio figure Img {
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+
+    .contenedorIncio figure .capa {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(215, 23, 253, 0.6);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+
+    }
+    .contenedorIncio figure .capa p{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .contenedorIncio figure:hover>.capa {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .contenedorIncio figure:hover>.capa h3 {
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+
+    .contenedorIncio figure:hover .capa h3 {
+        color: white;
+        font-size: 7rem;
+        font-family: fantasy;
+        font-weight: 400;
+        margin-bottom: 4rem;
+        transition: all 500ms ease-out;
+        margin-top: 7rem;
+    }
+
+    .contenedorIncio figure .capa p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
+
+    }
+
+    .contenedorIncio figure:hover img {
+        transform: scale(1.3);
+    }
+
+
+    /* ....Contacto.....*/
+    .IconoContacto img {
+        width: 7rem;
+        height: 7rem;
+        filter: drop-shadow(10px 7px 5px black);
+
+    }
+
+    .label{
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .clientes_contenido {
+        width: auto;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: large;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .clientes_input {
+        width: 100%;
+        display: block;
+        margin: 0.5 rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .clientes_btn {
+        font-size: 1.4rem;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 20px;
+    }
+    .clientes_btn:hover {
+        background-color: rgb(193, 4, 222);
+        color: white;
+        font-weight: 600;
+    }
+
+    .registroTxt {
+        padding: 1rem;
+        font-size: 7rem;
+        font-family: fantasy;
+        font-style: italic;
+        color: orange;
+        text-shadow: black 4px 8px 6px;
+    }
+
+
+
+    
+
+    /*...logos zapatillas camisetas y shorts...*/
+    .logos {
+        height: auto;
+        width: 20rem;
+
+    }
+
+    .logos:hover {
+        margin: auto;
+        height: auto;
+        width: 20rem;
+        filter: drop-shadow(10px 7px 5px black);
+    }
+
+    .contenedor img {
+        width: 70rem;
+        height: 70rem;
+        margin: 3rem;
+        padding: 2rem;
+        border-radius: 10%;
+        /*box-shadow: black 15px 12px 25px;*/
+
+    }
+
+    .contenedor {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .Marca {
+        font-family: fantasy;
+        font-style: italic;
+        font-size: 5rem;
+        color: orange;
+        text-shadow: black 4px 8px 6px;
+
+    }
+
+    .detalle {
+        padding: 2REM;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    /*.... accesorios ...*/
+    .contenedormain_acce {
+        padding: 1rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+
+    }
+
+    .contenedormain_acce a {
+        text-decoration: none;
+    }
+
+    .Img_chica {
+        margin: 1.5rem;
+        width: 25rem;
+        height: 25rem;
+        padding: 1rem;
+        border-radius: 15px;
+
+
+    }
+
+    .cont_img {
+        margin: 1rem;
+        width: 35rem;
+        height: 35rem;
+        border-width: 3px;
+        border-color: orange;
+    }
+
+    .nom_acc {
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+
+    }
+
+
+    /* carrusel swiper*/
+    .swiper {
+        width: 100%;
+
+    }
+
+    .swiper img {
+        width: 100%;
+        height: 5%;
+        object-fit: cover;
+
+    }
+
+    /*...zapatillas...*/
+
+    .zapa_jordan20 {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .zapa_stayloyal {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .titulo_prod {
+        padding: 1rem;
+        margin-top: 1rem;
+        font-family: fantasy;
+        color: orange;
+        font-size: 3rem;
+        text-align: center;
+
+
+    }
+
+    .precio_prod {
+        margin-bottom: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .btncomprar{
+        margin: 3rem;
+        background-color: orange;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 20px;
+        text-decoration: none;
+
+    }
+
+    .btncomprar:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+}
